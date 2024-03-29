@@ -1,0 +1,48 @@
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+node_modules
+dist
+dist-ssr
+*.local
+
+# Editor directories and files
+.vscode/*
+!.vscode/extensions.json
+.idea
+.DS_Store
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+
+// Import the functions you need from the SDKs you need
+import { initializeApp } from "firebase/app";
+// TODO: Add SDKs for Firebase products that you want to use
+// https://firebase.google.com/docs/web/setup#available-libraries
+
+// Your web app's Firebase configuration
+const firebaseConfig = {
+  apiKey: "AIzaSyAGFvsnsKCWkv65D-oBeu6eHUWA9xhkrZc",
+  authDomain: "vanlife-b1b8e.firebaseapp.com",
+  projectId: "vanlife-b1b8e",
+  storageBucket: "vanlife-b1b8e.appspot.com",
+  messagingSenderId: "654343397126",
+  appId: "1:654343397126:web:83c822aae942d8b23cc887"
+};
+
+// Initialize Firebase
+const app = initializeApp(firebaseConfig);
+
+
+# node
+node_modules
+React-Router/node_modules
